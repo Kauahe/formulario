@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATVD</title>
+    <style>
+
+        .botao1
+        {
+            background-color: rgb(106, 233, 106);
+            cursor:pointer;
+        }
+
+        .botao2
+        {
+            background-color: rgb(233, 115, 106);
+            cursor:pointer;
+        }
+
+        .botao1:hover, .botao2:hover
+        {
+            background-color: rgb(240, 240, 123);
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <fieldset>
+
+        <legend>Dados pessoais</legend>
+       Nome: <input type="texto" class="caixa_larga" id="nome">
+       <br>  <br>
+       Endereço:<input type=”text” class=”caixa_larga” id=”endereco”>
+       <br> <br> 
+       Cidade: <input type=”text” class=”caixa_larga” id=”cidade” >
+        <br>  <br>
+       Estado: <select id=”estado” class=”estado”>
+        <option>São Paulo</option>
+        <option>Paraná</option>
+        </select>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend> Dados Profissionais</legend>
+        Natureza Cargo:
+        <input type="radio" name="cargos">Gerência &nbsp; &nbsp;
+        <input type="radio" name="cargos"> Financeiro &nbsp; &nbsp;
+        <input type="radio" name="cargos"> Recepção &nbsp; &nbsp;
+        <input type="radio" name="cargos"> Administrativo &nbsp; &nbsp;
+        <input type="radio" name="cargos"> Juridico &nbsp; &nbsp;
+        <br>  <br>
+
+        Área de interesse:
+        <input type="checkbox"> Computação &nbsp; &nbsp;
+        <input type="checkbox"> Biologia &nbsp; &nbsp;
+        <input type="checkbox"> Meio Ambiente &nbsp; &nbsp;
+        <input type="checkbox"> Engenharia &nbsp; &nbsp;
+        <input type="checkbox"> História &nbsp; &nbsp;
+        <br>  <br>
+
+        Mini-curriculo: <br>
+        <textarea> </textarea>
+        <br>  <br>
+
+        <button class="botao1"> ENVIAR</button>
+        <button class="botao2"> LIMPAR</button>
+
+    </fieldset>
+    
+
+</body>
+</html>
